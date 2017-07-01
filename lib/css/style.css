@@ -1,0 +1,159 @@
+/* 
+    Document   : style
+    Created on : 11/03/2013, 17:47:56
+    Author     : GUILSANT
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+input[type=text] { 	
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff; 
+    border: 1px solid #000000;
+}
+
+input[type=text]:focus {
+    background-color: #FAFAD2;
+    border: 1px solid #FFA500;
+}
+
+select:focus {
+    background-color: #FAFAD2;
+    border: 1px solid #FFA500;
+}
+
+input[type=submit] {
+    border: 1px solid #000000;
+    cursor: pointer;
+    background: #006699;
+    color: #ffffff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border-radius: 4px;
+}
+
+input[type=button] {
+    border: 1px solid #000000;
+    cursor: pointer;
+    background: #006699;
+    color: #ffffff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Calibri;
+}
+
+textarea {
+    border: 1px solid #000000;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border-radius: 4px;
+}
+
+textarea:focus {
+    background-color: #FAFAD2;
+    border: 1px solid #FFA500;
+}
+
+select {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff; 
+    border: 1px solid #000000;
+}
+
+#DIVbotaoForm {
+    padding-top: 16px;
+    padding-left: 265px;
+}
+
+p#aviso {
+    font-size: 14px;
+    font-family: Calibri;
+    color: #FF0000;
+}
+
+td {
+    font-size: 14px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+
+#busca {
+    font-size: 16px;
+    font-family: Calibri;
+    margin: 20px 80px 20px 5px;
+    margin-left: 500px;
+}
+
+#tudo {
+    width: 980px;
+    margin: 0 auto;
+    text-align: left;
+    background: #fff;
+}
+
+#topo {
+    position: relative;
+    width: 980px;
+    height: 50px;
+    background: #006699 url('imagens/.jpg') no-repeat; /* cor do topo */
+    color: #999; /* cor do <p> do topo */
+}
+
+#principal {
+    width: 750px;
+    margin: 20px 80px 20px 200px;
+    float: left;
+    display: inline;
+}
+
+#rodape {
+    height: 20px;
+    clear: both;
+    background: #006699;
+    color: #fff;
+    font-size: 16px;
+    font-family: Calibri;
+}
+
+h2 {
+    color: #006699;
+    font-weight: bold;
+    font-family: Calibri;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

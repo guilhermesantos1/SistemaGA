@@ -1,0 +1,162 @@
+/* 
+    Document   : styleFollow
+    Created on : 31/07/2013, 14:40:35
+    Author     : GUILSANT
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#followTable {
+    font-size: 16px;
+    font-family: Calibri; 
+}
+
+table {
+    padding: 0px;
+    margin: 0px;
+}
+
+.linha_realce { 
+    background: #E2E6EF; 
+    cursor: pointer;
+} 
+
+input[type=button] {
+    border: 1px solid #000000;
+    cursor: pointer;
+    background: #006699;
+    color: #ffffff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Calibri;
+}
+
+input[type=text] { 	
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff; 
+    border: 1px solid #000000;
+}
+
+input[type=text]:focus {
+    background-color: #FAFAD2;
+    border: 1px solid #FFA500;
+}
+
+input[type=submit] {
+    border: 1px solid #000000;
+    cursor: pointer;
+    background: #006699;
+    color: #ffffff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Calibri;
+}
+
+select {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff; 
+    border: 1px solid #000000;
+    font-size: 14px;
+    font-family: Calibri;
+}
+
+select:focus {
+    background-color: #FAFAD2;
+    border: 1px solid #FFA500;
+}
+
+#busca {
+    font-size: 16px;
+    font-family: Calibri;
+    margin: 20px 80px 20px 5px;
+    margin-left: 500px;
+}
+
+#tudo {
+    width: 980px;
+    margin: 0 auto;
+    text-align: left;
+    background: #fff;
+}
+
+#topo {
+    position: relative;
+    width: 980px;
+    height: 50px;
+    background: #006699 url('imagens/.jpg') no-repeat; /* cor do topo */
+    color: #999; /* cor do <p> do topo */
+}
+
+#principal {
+    width: 750px;
+    margin: 20px 80px 20px 5px;
+    float: left;
+    display: inline;
+}
+
+#rodape {
+    height: 20px;
+    clear: both;
+    background: #006699;
+    color: #fff;
+    font-size: 16px;
+    font-family: Calibri;
+}
+
+a {
+    outline: 0;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #006699;
+}
+
+a:active {
+    color: blue;
+}
+
+#paginacao {
+    position: absolute;
+    margin-left: 240px;
+    font-size: 16px;
+    font-family: Calibri;
+}
+
+#resultados {
+    position: absolute;
+    margin-left: 590px;
+    font-size: 16px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+h2 {
+    color: #006699;
+    font-weight: bold;
+    font-family: Calibri;
+}
+
+

@@ -1,0 +1,114 @@
+/* 
+    Document   : loginStyle
+    Created on : 02/07/2013, 14:56:01
+    Author     : GUILSANT
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+input[type=text] { 	
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff; 
+    border: 1px solid #000000;
+    width: 200px;
+}
+
+input[type=password] { 	
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff; 
+    border: 1px solid #000000;
+    width: 200px;
+}
+
+input[type=submit] {
+    border: 1px solid #000000;
+    cursor: pointer;
+    background: #006699;
+    color: #ffffff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Calibri; 
+}
+
+input[type=button] {
+    border: 1px solid #000000;
+    cursor: pointer;
+    background: #006699;
+    color: #ffffff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;	
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Calibri; 
+}
+
+input[type=text]:focus {
+    border: 1px solid #FFA500;
+}
+
+input[type=password]:focus {
+    border: 1px solid #FFA500;
+}
+
+#login fieldset {
+  border: 1px solid #CCC;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  margin: 5% 0;
+  padding: 6%;
+  border-radius: 40px;
+  width: 20%;
+  height: 100px;
+}
+
+#login legend {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#botaoEntrar {
+    padding: 4%;
+    margin-left: 14%;
+}
+
+#recuperaSenha {
+    padding: 5%;
+    margin-left: 44%;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:visited {
+    text-decoration:none;
+    color: #000000;
+}
+
+a:hover {
+    color: #0000FF;
+}
+
+#tudo {
+    font-size: 14px;
+    font-family: Calibri; 
+}

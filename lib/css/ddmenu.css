@@ -1,0 +1,87 @@
+/* 
+    Document   : ddmenu
+    Created on : 01/08/2013, 13:01:04
+    Author     : GUILSANT
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+/*------------------------------------*
+    MENU DROP DOWN
+*------------------------------------*/
+nav {
+    color: #FFF;
+    background: #006699;
+    height: 0px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Calibri;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    float: left;
+}
+
+nav ul li {
+    display: table;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: #FFF;
+    background: #006699;
+    text-decoration: none;
+    padding:5px;
+    display:block;
+    margin:0;
+    float: left;
+}
+
+nav ul li a:hover {
+    background: #00BFFF;
+    border-radius: 4px;
+    color: #FFF;
+}
+
+nav ul li ul {
+    display: none;
+    float: none;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    border: solid 1px #000;
+    border-radius: 4px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li ul li,
+nav ul li ul li a {
+    float: none;
+    width: 85px;
+    background: #006699;
+    color: #FFF;
+}
+
+nav ul li ul li a:hover {
+    float: none;
+    background: #00BFFF;
+}
+
+nav ul li ul li {
+    margin: 0;
+}
+
+nav ul li ul li ul {
+    left: 100%;
+    top: 0;
+}

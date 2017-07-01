@@ -1,0 +1,59 @@
+/* 
+    Document   : styleNiver
+    Created on : 16/08/2013, 12:41:42
+    Author     : GUILSANT
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table {
+    padding: 0px;
+    margin-left: 270px; 
+}
+
+#tableNiver {
+    font-size: 16px;
+    font-family: Calibri;
+}
+
+.linha_realce { 
+    background: #E2E6EF; 
+    cursor: default;
+} 
+
+#tudo {
+    width: 980px;
+    margin: 0 auto;
+    text-align: left;
+    background: #fff;
+}
+
+#topo {
+    position: relative;
+    width: 980px;
+    height: 50px;
+    background: #006699 url('imagens/.jpg') no-repeat; /* cor do topo */
+    color: #999; /* cor do <p> do topo */
+}
+
+#principal {
+    width: 980px;
+    margin: 20px 80px 20px 5px;
+    float: left;
+    display: inline;
+}
+
+#rodape {
+    height: 20px;
+    background: #006699;
+    color: #fff;
+    font-size: 16px;
+    font-family: Calibri;
+}
+
+h2 {
+    margin-left: 272px;
+    color: #006699;
+    font-weight: bold;
+    font-family: Calibri;
+}
